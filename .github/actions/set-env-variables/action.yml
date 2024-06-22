@@ -5,8 +5,8 @@ runs:
   steps:
     - shell: bash
       run: |
-        echo "QUAY_ORGANIZATION=cilium" >> $GITHUB_ENV
-        echo "QUAY_ORGANIZATION_DEV=cilium" >> $GITHUB_ENV
+        echo "QUAY_ORGANIZATION=richardfan1126" >> $GITHUB_ENV
+        echo "QUAY_ORGANIZATION_DEV=richardfan1126" >> $GITHUB_ENV
         # no prod yet
         echo "QUAY_CHARTS_ORGANIZATION_DEV=cilium-charts-dev" >> $GITHUB_ENV
         echo "EGRESS_GATEWAY_HELM_VALUES=--helm-set=egressGateway.enabled=true" >> $GITHUB_ENV
